@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Spooky";
+  src: url(../assets/OctoberCrow.ttf) format("truetype");
+}
+
+body {
+  background: black;
+  color: orange;
+  background-image: url("../assets/dollarphotoclub_92889788.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Spooky", sans-serif;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+.menuContainer {
+    list-style-type: none;
+    margin: 20;
+    padding: 30;
+    overflow: hidden;
+    background-color: #FF6E26;
+} 
+
+.navBar {
+    float: left;
+}
+
+.navBar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.navBar a {
+  font-size: 40px;
+  display: block;
+
+}
+
+img.pumpkin {
+  height: 4em;
+}
+
+footer {
+  list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  display: block;
+}
+.bodyContainer {
+  margin: 200px 300px 40px 300px;
+  background-color: #e8eaf6;
+  padding:20px 20px 20px 20px;
+  opacity: 0.7;
+  border: 1px solid; 
+  border-radius: 10px;
+}
+.bodyContainer p {
+  font-family: garamond;
+  font-size:20px;
+  color:black;
+  text-align: center;
+
+}
+.bodyContainer li {
+  font-family: garamond;
+  font-size:20px;
+  padding-right: 10px;
+  padding-right:10px;
+  color: black;
+}
+
