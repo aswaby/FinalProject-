@@ -1,81 +1,162 @@
-@font-face {
-  font-family: "Spooky";
-  src: url(../assets/OctoberCrow.ttf) format("truetype");
-}
 
 body {
   background: black;
-  color: orange;
-  background-image: url("../assets/dollarphotoclub_92889788.jpg");
+  background-image: url("https://static.pexels.com/photos/30222/pexels-photo-30222.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  font-family: "Spooky", sans-serif;
-  height: 1000px;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
-
-.menuContainer {
-    list-style-type: none;
-    margin: 20;
-    padding: 30;
-    overflow: hidden;
-    background-color: #FF6E26;
-} 
-
-.navBar {
-    float: left;
-}
-
-.navBar a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navBar a:hover {
-    background-color: purple;
-    border-radius: 5px;
-}
-
-.navBar a {
-  font-size: 40px;
-  display: block;
-
-}
-
-img.pumpkin {
-  height: 4em;
-}
-
-footer {
-  list-style-type: none;
-  position: fixed;
-  bottom: 0;
-  display: block;
-}
-.bodyContainer {
-  margin: 200px 300px 40px 300px;
+.containerAbout {
+  margin: 100px 300px 40px 300px;
   background-color: #e8eaf6;
   padding:20px 20px 20px 20px;
   opacity: 0.7;
   border: 1px solid; 
   border-radius: 10px;
 }
-.bodyContainer p {
-  font-family: garamond;
-  font-size:20px;
+.containerAbout div {
+  font-family: verdana;
+  font-size: 20px;
   color:black;
-  text-align: center;
+  text-align: justify;
+}
+.topdiv {
+
+  width:100%;
+  height:40px;
+  padding: 20px 20px 20px 20px;
+}
+#tagline{
+  font-family: Courier;
+  font-size: 24px;
+  float: center;
+  position: inline-block;
+  margin-left: 700px;
+  position:relative;
+  color: #a6001a;
+}
+#logo{
+  font-family: monospace;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 26.4px;
+  float:left;
+  position: inline-block;
+  color: #808080;
+  margin-left:25px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 4px #622569;
+  clear: both;
+}
+nav {
+    list-style-type: none;
+    padding: 4;
+    overflow: hidden;
+    background-color: #333;
+    border:1px solid #622569;
+    width: 99%;  
+    box-shadow:2px 2px 6px #000000; 
+    clear: both;
+    margin-top: 30px;
+    margin-left: 7px;
+    border-radius: 4px;
+}
+nav ul li {
+    float: left;
+    padding-left:1px;
+    list-style-type: none;
 
 }
-.bodyContainer li {
-  font-family: garamond;
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color #5b9aa0 on hover */
+nav li a:hover {
+    background-color:#5b9aa0;
+}
+.col-md-12 img {
+  float:left;
+  height:450px;
+  width:380px;
+  display:inline-block;
+  padding:10px;
+  display:inline;
+  clear:both;
+  z-index: -1;
+
+}
+.images{
+  margin: 50px; 
+  background-color: #f1f1f1;
+  text-align: justify-all;
+
+}
+
+ p {
+ 
+  padding: 15px 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  font-family: verdana;
   font-size:20px;
-  padding-right: 10px;
-  padding-right:10px;
-  color: black;
+  color:#868585;
+
 }
 
+ .clickme {
+  padding:5px;
+  margin-left: 100px;
+  color: white;
+
+ }
+ .content  {
+  padding:20px 20px 20px 20px;
+  opacity: 0.7;
+  border: 1px solid; 
+  border-radius: 10px;
+  background-color: #660000;
+}
+.content p {
+color: white;
+text-align: justify; 
+font-family: verdana;
+text-shadow: 2px 2px 4px #622569;
+box-shadow:2px 2px 6px #000000; 
+}
+  
+ 
+
+.footer-social { 
+  padding-top: 20px;
+  float: left; 
+  margin-top:5px;
+  list-style-type: none;
+  clear: both;
+}
+.footer-social img {
+   max-height:50px; 
+  max-width:50px;
+  display: inline-block;
+  padding: 5px;
+
+ }
+ iframe {
+  float: left;
+  padding: 10px;
+  margin-left: 40px;
+  width:660px; 
+  height:415px;
+  display: inline-block;
+  position: relative;
+ }
+.containerForm {
+
+  margin: 70px 200px 200px 200px;
+}
+ 
